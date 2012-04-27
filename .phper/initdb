@@ -1,0 +1,8 @@
+# run after inititalize database
+export DBHOST
+export DBPASSWORD
+export DBUSER
+export DBNAME
+
+expect -f .phper/openpne-install
+
