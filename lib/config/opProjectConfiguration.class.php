@@ -160,6 +160,7 @@ class opProjectConfiguration extends sfProjectConfiguration
 
       opToolkit::writeCacheFile($opConfigCachePath, '<?php return '.var_export($config, true).';');
     }
+
     $this->configureSessionStorage($config['session_storage']['name'], (array)$config['session_storage']['options']);
     unset($config['session_storage']);
 
